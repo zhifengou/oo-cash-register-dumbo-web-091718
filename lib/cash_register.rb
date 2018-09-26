@@ -25,9 +25,7 @@ class CashRegister
     "After the discount, the total comes to $#{self.total.to_i}."
   end 
 end
-
-def void_last_transaction
+ def void_last_transaction
   @items.pop
   @total-=@last_transaction
-end
 end
