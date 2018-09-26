@@ -29,3 +29,4 @@ end
   @items.pop
   @total-=@last_transaction
 end
+end
